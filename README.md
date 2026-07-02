@@ -42,7 +42,7 @@ The skill instructs the agent to:
    or ask ONE clarifying question only if genuinely ambiguous
 4. Never block a task just because of a typo
 
-See [`examples/sample-conversations.md`](examples/sample-conversations.md)
+See [`sample-conversations.md`](sample-conversations.md)
 for before/after examples.
 
 ## Contributing
