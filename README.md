@@ -18,6 +18,35 @@ ambiguous.
 - ✅ Hermes agent
 - ✅ Any agent framework that supports Markdown-based skill/instruction files
 
+## Quick Start
+
+### For OpenClaw
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/sm-masud-rana/openclaw-typo-tolerant-skill.git
+   cd openclaw-typo-tolerant-skill
+   ```
+
+2. Copy `SKILL.md` to your OpenClaw skills folder:
+   ```bash
+   cp SKILL.md ~/openclaw/skills/typo-tolerant-input/
+   ```
+   (Create the folder if it doesn't exist)
+
+3. Restart your OpenClaw agent — the skill will auto-load from the workspace
+
+### For Hermes Agent
+
+1. Download `SKILL.md`:
+   ```bash
+   wget https://raw.githubusercontent.com/sm-masud-rana/openclaw-typo-tolerant-skill/main/SKILL.md
+   ```
+
+2. Add to your Hermes agent's skill path as per your configuration
+
+3. Reload your agent
+
 ## Installation
 
 ### OpenClaw
